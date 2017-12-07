@@ -6,9 +6,10 @@
         <!--android:label="my permissions group" />-->
 
     <permission android:name="com.example.patryko.bradcast_sending.MY_PERMISSION"
-
-        android:label="my permissions"
-        android:protectionLevel="dangerous"/>
+        android:label="my permissiion"
+        android:protectionLevel="dangerous" />
+   <!---->
+   <!--<uses-permission android:name="com.example.patryko.bradcast_sending.MY_PERMISSION"/>-->
 
 
     <application
