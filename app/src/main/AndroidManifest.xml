@@ -7,7 +7,7 @@
 
     <permission android:name="com.example.patryko.bradcast_sending.MY_PERMISSION"
 
-        android:label="my persmissions"
+        android:label="my permissions"
         android:protectionLevel="dangerous"/>
 
 
