@@ -30,10 +30,10 @@ public class MainActivity extends Activity {
 
         Intent intent = new Intent();
         intent.setAction("com.example.patryko.bradcast_sending.MY_SUPER_NOTIFICATION");
-      intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
+        intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         String message = et_message.getText().toString();
-        intent.putExtra("Message",message);
-        sendBroadcast(intent);
+        intent.putExtra("data",message);
+        sendBroadcast(intent, "com.example.patryko.bradcast_sending.BROADCASTING_ACTIVITY");
         //sendBroadcast(intent);
 
     }

@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.patryko.bradcast_sending">
-
-    <!--<permission-group android:name="com.examples.patrics_permissions"-->
-        <!--android:label="my permissions group" />-->
-
-    <permission android:name="com.example.patryko.bradcast_sending.MY_PERMISSION"
-        android:label="my permissiion"
+    <permission android:name="com.example.patryko.bradcast_sending.BROADCASTING_ACTIVITY"
+        android:label="My permission"
         android:protectionLevel="dangerous" />
-   <!---->
-   <!--<uses-permission android:name="com.example.patryko.bradcast_sending.MY_PERMISSION"/>-->
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
